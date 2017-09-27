@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Test</title>
+</head>
+<body>
+    
+		
+	<ul> 
+		<li>ok</li>
+		<li>ok</li>
+		<li>ok</li>
+		<li>ok</li>
+		
+	<ul/>
+	
+	<img src="flower.jpg" alt="picture" title="title picture">
+	
+</body>
+</html>
