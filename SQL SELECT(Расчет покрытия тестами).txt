@@ -1,4 +1,4 @@
-SELECT Count(Rcov.R_cov)/Count(Tcs.Rall)*100 AS Процент
+SELECT Count(Rcov.R_cov)/Count(Tcs.Rall)*100 AS Percent
 
 
 FROM (RTM RIGHT JOIN  Rcov ON Rcov.R_id = RTM.R_id)
