@@ -1,0 +1,30 @@
+sh-4.4$ pwd                                                                                                                                                                                             
+/home/cg/root                                                                                                                                                                                           
+sh-4.4$ mkdir Tests                                                                                                                                                                                     
+sh-4.4$ cd Tests                                                                                                                                                                                        
+sh-4.4$ touch test_{A..E}                                                                                                                                                                               
+sh-4.4$ ls                                                                                                                                                                                              
+test_A  test_B  test_C  test_D  test_E                                                                                                                                                                  
+                                                                                                                                                                           
+                                                                                                                                                                        
+                                                                                                                                                                                     
+sh-4.4$ echo "$(date +%d-%m-%y)" | tee test_A test_B test_C test_D test_E                                                                                                                               
+16-10-17                                                                                                                                                                                                
+                                                                                                                                                                                                    
+                                                                                                                                                                               
+sh-4.4$ cat test_* | wc -l                                                                                                                                                                              
+5   
+                                                                                                                                                                          
+sh-4.4$ pwd                                                                                                                                                                                             
+/home/cg/root/Tests                                                                                                                                                                                     
+                                                                                                                                                                 
+sh-4.4$ cd                                                                                                                                                                                              
+sh-4.4$ pwd                                                                                                                                                                                             
+/home/cg/root
+                                                                                                                                                                                           
+sh-4.4$ rm -r Tests                                                                                                                                                                                     
+sh-4.4$ ls                                                                                                                                                                                              
+README.txt                                                                                                                                                                                              
+sh-4.4$ pwd                                                                                                                                                                                             
+/home/cg/root                                                                                                                                                                                           
+                                                                                                                                                                                        
